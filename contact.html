@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+    <style>
+       .field {
+        margin-bottom: 5px;
+       }
+    </style>
+</head>
+<body>
+    <h4>
+        <a href="/home/muhammadziyo/apps/html/Project.html">Back to Portfolio</a>
+    </h4>
+    <h3>Contact me</h3>
+    <form action="contact.php" method="GET">
+        <div class="feild">
+            <label for="firstname">Firstname</label>
+            <input type="text" name="firstname" id="firstame">
+        </div>
+        <div class="feild">
+            <label for="lastname">Lastname</label>
+            <input type="text" name="lastname" id="lastname">
+        </div>
+        <div class="feild">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+        </div>
+        <div class="feild">
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="10"></textarea>
+        </div>
+        <button type="submit">Sent</button>
+    </form>
+</body>
+</html>

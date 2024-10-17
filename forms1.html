@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms 1</title>
+    <style>
+        #birinchi {
+            text-align: center;
+            color: blue;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="birinchi">
+    <form action="/server.php" method="GET">
+    <label for="Username">Username</label>
+    <input type="texr" name="Username" id="Username"<br> <br> <br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password"><br><br>
+    <button type="submit">Login</button>
+    <h5>Logini yangilash</h5>
+    <label for="tajriba">Tajribangiz (yil)</label>
+    <select name="experience" id="tajriba"><br><br>
+    <option value="0">Tajribam yoq</option>
+    <option value="1">Bir yildan kam</option>
+    <option value="2">ikki yil</option>
+    </select>
+    <br><br>
+    <label for="haqida">Siz haqingizda</label><br>
+    <textarea id="haqida" name="about" rows="10"></textarea> <br>
+    <button type="submit">Register</button><br><br>
+    </form>
+    </div>
+</body>
+</html>
